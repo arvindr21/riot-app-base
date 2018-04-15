@@ -1,6 +1,6 @@
 <app-root>
   <!-- Component HTML Start -->
-  <h1>App loaded successfully!</h1>
+  <h1><img src="../images/pear.png" height="48" width="48"/>  App loaded successfully!</h1>
   <!-- Component HTML End -->
   <!-- Component Style Start -->
   <style scoped>

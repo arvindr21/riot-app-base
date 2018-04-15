@@ -1,0 +1,10 @@
+$light: #efefef;
+$dark: #216b9c;
+
+
+body {
+  background-color: $light;
+  h1, h2 {
+      color: $dark
+  }
+}
