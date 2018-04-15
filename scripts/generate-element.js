@@ -48,8 +48,8 @@ prompt.get(schema, function(err, result) {
         console.log(`Creating component ${result.name} failed.`.red);
     } else {
         fs.writeFileSync(file, componentTemplate);
-        fs.appendFileSync(__dirname + '/../src/index.js', `\nrequire('./elements/${result.name}.tag');`);
-        console.log('Updated src/index.js'.magenta);
+        fs.appendFileSync(__dirname + '/../src/elements/includes.js', `\nrequire('./${result.name}.tag');`);
+        console.log('Updated src/elements/includes.js'.magenta);
         console.log(`Created component ${result.name}.`.green);
     }
 

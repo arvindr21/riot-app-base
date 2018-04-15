@@ -40,7 +40,8 @@ module.exports = {
                     loader: 'url-loader',
                     options: {
                         limit: 15000, // Convert images < 15kb to base64 strings
-                        name: 'images/[name].[chunkhash].[ext]'
+                        // name: 'images/[name].[chunkhash].[ext]'
+                        name: 'images/[name].[ext]'
                     }
                 }]
             }
@@ -59,7 +60,8 @@ module.exports = {
         }),
         new CopyWebpackPlugin([{
             from: 'src/images',
-            to: 'images/[name].[hash].[ext]'
+            // to: 'images/[name].[hash].[ext]'
+            to: 'images/[name].[ext]'
         }])
     ]
 }
