@@ -9,12 +9,15 @@
     "gen-comp": "node ./scripts/generate-component",
     "gen-elem": "node ./scripts/generate-element",
     "gen-html": "node ./scripts/generate-html",
+    "gen-clog": "node ./scripts/generate-changelog",
     "serve": "http-server dist",
     "deploy": "node ./scripts/deploy-gh-pages"
   },
   "keywords": [
     "RIOTJS",
-    "BASE"
+    "BASE",
+    "Twitter",
+    "Bootstrap 4"
   ],
   "author": "Arvind Ravulavaru",
   "license": "MIT",
@@ -33,6 +36,7 @@
     "colors": "^1.2.1",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
+    "dump-git-logs": "^0.3.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "gh-pages": "^1.1.0",
@@ -44,6 +48,7 @@
     "pretty": "^2.0.0",
     "prompt": "^1.0.0",
     "sass-loader": "^7.0.1",
+    "simple-git-changelog": "^1.7.0",
     "style-loader": "^0.20.3",
     "tag-loader": "^0.3.0",
     "url-loader": "^1.0.1",
