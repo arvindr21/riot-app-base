@@ -17,17 +17,15 @@
   <!-- Component Script Start -->
   <script>
     this.on('mount', () => {
-      // console.log(opts.alert);
+      opts.alert = opts.alert || {};
+      opts.alert.type =  opts.alert.type || 'primary';
+      if (typeof opts.alert.isvisible === 'undefined') opts.alert.isvisible = true;
+      opts.alert.text =  opts.alert.text || '';
+      opts.alert.dismissable =  opts.alert.dismissable || false;
       this.update();
     });
 
     this.on('update', () => {  
-            opts.alert = opts.alert || {};
-            opts.alert.type =  opts.alert.type || 'primary';
-            opts.alert.isvisible =  opts.alert.isvisible || false;
-            opts.alert.text =  opts.alert.text || '';
-            opts.alert.dismissable =  opts.alert.dismissable || false;
-            if (typeof opts.alert.isvisible === 'undefined') opts.alert.isvisible = true
             if (opts.alert.timeout) {
                 opts.alert.startTimer = () => {
                     opts.alert.timer = setTimeout(() => {

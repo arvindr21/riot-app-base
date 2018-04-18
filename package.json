@@ -9,7 +9,7 @@
     "gen": "node ./scripts/generate-component",
     "gen-elem": "node ./scripts/generate-element",
     "serve": "http-server dist",
-    "gen-html" : "node ./scripts/generate-html"
+    "gen-html": "node ./scripts/generate-html"
   },
   "keywords": [
     "RIOTJS",
@@ -21,6 +21,8 @@
     "bootstrap": "^4.1.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
+    "pretty": "^2.0.0",
+    "rimraf": "^2.6.2",
     "riot": "^3.9.2"
   },
   "devDependencies": {

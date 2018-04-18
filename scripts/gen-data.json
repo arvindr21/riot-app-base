@@ -1,0 +1,21 @@
+{
+    "bs-alert": [
+    {
+        "alert":
+        {
+            "type": "primary",
+            "text": "This will update when you click the button!"
+        }
+    }],
+    "bs-button": [
+    {
+        "button":
+        {
+            "bgType": "primary",
+            "size": "lg",
+            "block": false,
+            "disabled": false,
+            "text": "Click here"
+        }
+    }]
+}
