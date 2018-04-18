@@ -1,5 +1,11 @@
 # CHANGELOG
-commit 009c046 (HEAD -> master, origin/master, origin/HEAD)
+commit 30f39a4 (HEAD -> master, origin/master, origin/HEAD)
+Author: Arvind Ravulavaru <arvind.ravulavaru@gmail.com>
+Date:   Wed Apr 18 12:25:44 2018 +0530
+
+    Added changelog generator
+
+commit 009c046
 Author: Arvind Ravulavaru <arvind.ravulavaru@gmail.com>
 Date:   Wed Apr 18 10:12:49 2018 +0530
 

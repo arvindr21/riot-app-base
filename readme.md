@@ -73,6 +73,14 @@ $ # or
 $ yarn deploy
 ```
 
+## Generate Change log
+
+```bash
+$ npm run gen-clog
+$ # or
+$ yarn gen-clog
+```
+
 ## Development Workflow
 ```bash
 $ npm run dev
@@ -80,6 +88,7 @@ $ # once dev is completed
 $ npm run build
 $ npm run serve # Test the prod app
 $ npm run gen-html
+$ npm run gen-clog
 $ npm run deploy
 ```
 or

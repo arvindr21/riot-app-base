@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server src --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && npm run gen-clog",
     "gen-comp": "node ./scripts/generate-component",
     "gen-elem": "node ./scripts/generate-element",
     "gen-html": "node ./scripts/generate-html",
