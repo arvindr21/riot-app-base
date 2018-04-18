@@ -1,8 +1,7 @@
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
 const riot = require('riot');
 const pretty = require('pretty');
-const rimraf = require('rimraf');
 
 const compsFolder = path.resolve(__dirname, '../src/components/');
 const elemsFolder = path.resolve(__dirname, '../src/elements/');
@@ -12,8 +11,6 @@ const compDistFolder = path.resolve(__dirname, '../static', 'components');
 const elemDistFolder = path.resolve(__dirname, '../static', 'elements');
 
 const ElemData = require('./gen-data.json');
-
-rimraf(distFolder, () => {});
 
 if (!fs.existsSync(distFolder)) {
     fs.mkdirSync(distFolder);
