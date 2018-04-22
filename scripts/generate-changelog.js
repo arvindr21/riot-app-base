@@ -4,7 +4,7 @@ const path = require('path');
 const options = {
     fileName: 'CHANGELOG.md',
     filePath: path.resolve(__dirname, '..'),
-    type: 'default'
+    type: 'full'
 }
 
 dumpGitLogs(options);

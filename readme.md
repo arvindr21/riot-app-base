@@ -88,7 +88,6 @@ $ # once dev is completed
 $ npm run build
 $ npm run serve # Test the prod app
 $ npm run gen-html
-$ npm run gen-clog
 $ npm run deploy
 ```
 or
